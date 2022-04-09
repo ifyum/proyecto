@@ -28,7 +28,7 @@
     "html2canvas": "^1.0.0-alpha.12",
     "jquery": "^3.3.1",
     "jspdf": "2.3.1",
-    "moment": "2.22.2",
+    "moment": "2.29.2",
     "ng-jhipster": "0.5.4",
     "ng2-charts": "^2.0.0-beta.21",
     "ng2-ckeditor": "^1.2.2",
