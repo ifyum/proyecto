@@ -31,4 +31,4 @@ jobs:
 #    - run: npm  start --prefix app
     - run: npm ci --prefix app
     - run: npm run build --if-present --prefix app
-#     - run: npm test --prefix app
+    - run: npm test --prefix app
