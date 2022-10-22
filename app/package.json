@@ -45,7 +45,7 @@
     "rxjs-compat": "6.1.0",
     "sockjs-client": "1.3.0",
     "stompjs": "2.3.3",
-    "swagger-ui": "4.1.3",
+    "swagger-ui": "4.15.0",
     "sweetalert2": "^9.5.4",
     "tslib": "1.9.3",
     "xlsx": "^0.17.0",
