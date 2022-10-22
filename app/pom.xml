@@ -91,7 +91,7 @@
         <maven-resources-plugin.version>3.1.0</maven-resources-plugin.version>
         <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
         <maven-war-plugin.version>3.2.2</maven-war-plugin.version>
-        <jib-maven-plugin.version>0.9.11</jib-maven-plugin.version>
+
         <frontend-maven-plugin.version>1.6</frontend-maven-plugin.version>
         <jacoco-maven-plugin.version>0.8.2</jacoco-maven-plugin.version>
         <lifecycle-mapping.version>1.0.0</lifecycle-mapping.version>
@@ -576,10 +576,6 @@
                     -->
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>com.google.cloud.tools</groupId>
-                <artifactId>jib-maven-plugin</artifactId>
-            </plugin>
             <!-- jhipster-needle-maven-add-plugin -->
         </plugins>
         <pluginManagement>
@@ -647,7 +643,7 @@
                 <plugin>
                     <groupId>com.google.cloud.tools</groupId>
                     <artifactId>jib-maven-plugin</artifactId>
-                    <version>${jib-maven-plugin.version}</version>
+                    <version>3.3.0</version>
                     <configuration>
                         <from>
                             <image>openjdk:8-jre-alpine</image>
@@ -675,7 +671,7 @@
                 <plugin>
                     <groupId>org.liquibase</groupId>
                     <artifactId>liquibase-maven-plugin</artifactId>
-                    <version>${liquibase.version}</version>
+                    <version>4.17.0</version>
                     <configuration>
                         <changeLogFile>src/main/resources/config/liquibase/master.xml</changeLogFile>
                         <diffChangeLogFile>
@@ -693,6 +689,7 @@
                         <logging>debug</logging>
                     </configuration>
                     <dependencies>
+
                         <dependency>
                             <groupId>org.javassist</groupId>
                             <artifactId>javassist</artifactId>
@@ -701,7 +698,7 @@
                         <dependency>
                             <groupId>org.liquibase.ext</groupId>
                             <artifactId>liquibase-hibernate5</artifactId>
-                            <version>${liquibase-hibernate5.version}</version>
+                            <version>4.17.0</version>
                         </dependency>
                         <dependency>
                             <groupId>org.springframework.boot</groupId>

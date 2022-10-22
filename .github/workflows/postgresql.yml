@@ -1,6 +1,7 @@
 name: Java CI with Maven
 
 on:
+
   push:
     branches: [ master ]
   pull_request:
@@ -17,3 +18,4 @@ services:
       - POSTGRES_PASSWORD=
     ports:
       - 5432:5432
+
