@@ -17,7 +17,7 @@ docker-compose up -d -f --build compose-dev.yml
 Esto compilara las imagenes en caso de ser necesario. Mas informacion en la [wiki](/wikis/desarrollo-local)
 
 ```bash
-docker run -v ~/proyectos/netlinux/registrocivil-pdisciplinario:/home/jhipster/app --name jhipster1 -p 8080:8080 -p 9000:9000 -p 3001:3001 -tid jhipster/jhipster:v4.14.5 tail -f /dev/null
+docker run -v ~/proyectos/ifyum/res-dis:/home/jhipster/app --name jhipster1 -p 8080:8080 -p 9000:9000 -p 3001:3001 -tid jhipster/jhipster:v4.14.5 tail -f /dev/null
 ```
 
 Abrir dos consolas. En la primera:
